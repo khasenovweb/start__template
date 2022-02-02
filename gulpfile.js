@@ -75,7 +75,7 @@ function watching() {
     });
 }
 
-exports.default = series(del_dist, nunjucks_compile, less_compile, js_compile, fonts, watching);
+exports.default = series(del_dist, nunjucks_compile, less_compile, js_compile, img, fonts, watching);
 
 watch(['app/nunjucks/**/*.html'],nunjucks_compile);
 watch(['app/less/**/*.less'], less_compile);
