@@ -6,10 +6,10 @@
 @@include('libs/owl.carousel.min.js')
 @@include('libs/mask.js')
 @@include('libs/mask-phone.js')
-@@include('headhesive.js')
-@@include('parallax.min.js')
-@@include('validate.js')
-@@include('scroll.js')
+@@include('libs/headhesive.js')
+@@include('libs/parallax.min.js')
+@@include('libs/validate.js')
+@@include('libs/scroll.js')
 // ==============================//
 // =========== Libs ===============//
 // ==============================//
